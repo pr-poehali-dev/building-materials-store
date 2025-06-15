@@ -20,15 +20,11 @@ const Header = () => {
             className="flex items-center cursor-pointer"
             onClick={() => navigate("/")}
           >
-            <div className="bg-gradient-to-r from-green-500 to-yellow-500 text-white p-2 rounded-lg mr-3">
-              <span className="font-bold text-xl">СМ</span>
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold text-gray-900">Строй мир</h1>
-              <p className="text-sm text-gray-600 hidden sm:block">
-                Строительные материалы
-              </p>
-            </div>
+            <img
+              src="https://cdn.poehali.dev/files/29f9d76b-fa8c-48bb-ae31-c5695d845059.png"
+              alt="СтройМир - Магазин строительных материалов"
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
